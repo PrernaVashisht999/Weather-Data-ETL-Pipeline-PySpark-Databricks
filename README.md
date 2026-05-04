@@ -1,4 +1,55 @@
-# End-to-End-Weather-Data-Engineering-Project.
-This project focuses on analyzing real-time weather data for Four Oaks, North Carolina, fetched using the RapidAPI. Leveraging PySpark in the Databricks Community Edition environment, the dataset was processed to extract meaningful insights about various weather parameters such as temperature, humidity, wind speed, cloud cover, and weather descriptions. The project began with defining a custom schema for clean data ingestion into a Spark DataFrame. Missing values were handled efficiently using techniques like filling with mean values for numerical columns. Various PySpark functions were used to explore the dataset—checking for nulls, filtering records based on specific conditions (e.g., temperature above 75°F or cloud cover above 50%), and analyzing weather patterns by grouping and sorting data. Special focus was given to datetime manipulation, such as extracting month names and day-of-month values, to identify trends like frequent cloudy days or monthly weather distribution. The entire workflow—from API integration to data transformation and insight extraction—was implemented using PySpark’s core functionalities. This project highlights practical applications of data cleaning, transformation, and exploratory data analysis in a big data environment. It demonstrates proficiency in using APIs, working with large-scale data using Spark, and drawing insights from real-world weather information in a structured and scalable manner.
+# Weather Data ETL Pipeline using PySpark and Databricks
+
+## Project Overview
+
+Built a PySpark-based ETL pipeline in Databricks to ingest API-driven weather data from RapidAPI and process it into structured datasets for weather trend analysis.
+
+## Tech Stack
+
+* Python
+* PySpark
+* Apache Spark
+* Databricks
+* RapidAPI
+* Spark DataFrames
+
+## Key Features
+
+* Integrated weather data from RapidAPI
+* Processed semi-structured API response data using PySpark
+* Applied data cleaning, filtering, validation, and transformation logic
+* Engineered datetime-based fields for trend analysis
+* Performed aggregations across key weather attributes
+
+## Data Processing Workflow
+
+1. Ingested weather data from RapidAPI
+2. Loaded API response into Databricks
+3. Converted semi-structured data into Spark DataFrames
+4. Cleaned and transformed weather attributes
+5. Performed filtering, aggregations, and datetime-based analysis
+6. Identified weather patterns across temperature, humidity, cloud cover, and datetime fields
+
+## Key Weather Attributes
+
+* Temperature
+* Humidity
+* Cloud Cover
+* Weather Description
+* Date and Time fields
+
+## Outcome
+
+Processed 4+ weather attributes and performed 3+ data processing operations, including filtering, aggregations, and datetime-based analysis, to identify weather trends and patterns.
+
+## Skills Demonstrated
+
+* API-based data ingestion
+* PySpark transformations
+* Spark DataFrame processing
+* Data cleaning and validation
+* Semi-structured data handling
+* ETL pipeline development
+* Databricks workflow execution
 
 
